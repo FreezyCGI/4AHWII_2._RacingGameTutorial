@@ -17,6 +17,6 @@ public class Car : MonoBehaviour
     void Update()
     {
         float verticalInput = Input.GetAxis("Vertical");
-        rigid.AddForce(transform.forward * verticalInput * 10);
+        rigid.AddForce(transform.forward * verticalInput * 2);
     }
 }
